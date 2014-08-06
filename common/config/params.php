@@ -1,10 +1,10 @@
 <?php
 return [
 	'app' => [
-	    'siteDomain' => 'http://my-site.com',
-	    'staticsDomain' => 'http://statics.my-site.com',
-		'adminEmail' => 'admin@my-site.com',
-		'robotEmail' => 'robot@my-site.com',
+	    'siteDomain' => 'http://frontend',
+	    'staticsDomain' => 'http://static',
+		'adminEmail' => 'admin@yii2-start',
+		'robotEmail' => 'robot@yii2-start',
 		'allowHtmlTags' => 'p,span,strong,ul,ol,li,em,u,strike,br,hr,img,a',
 		'moreTag' => '<!--more-->',
 		'morePattern' => '<p><!--more--></p>',
@@ -15,7 +15,7 @@ return [
 		'username' => 'root',
 		'password' => '',
 		'charset' => 'utf8',
-		'tablePrefix' => 'mk3u_'
+		'tablePrefix' => 'tbl_'
 	],
 	'components.cache' => [
 		'class' => 'yii\caching\FileCache',
